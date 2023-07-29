@@ -1,0 +1,56 @@
+
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 2000px)  {
+    .collapse{
+        margin-left: 200px;
+    } 
+    .nav-item{
+        margin-left: 50px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 600px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .collapse{
+        margin-left: 200px;
+    } 
+    .nav-item{
+        margin-left: 50px;
+    }
+}
+@media only screen 
+  and (min-device-width: 1000px) 
+  and (max-device-width: 2000px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .h-title{
+        font-size: 45px;
+        margin-top: 190px;
+    }
+}
+@media only screen 
+  and (min-device-width: 100px) 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .h-title{
+        margin-top: 50px;
+    }
+}
+
+ .card-body{
+    text-align: center;
+    font-size: 30px;
+    color: green;
+} 
+
+.f-bg{
+    background-image: url("images/student.jpg");
+    margin-top: 30px;
+}
+.terms{
+    color: green;
+}
